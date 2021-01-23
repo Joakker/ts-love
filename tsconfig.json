@@ -6,7 +6,8 @@
     "moduleResolution": "node",
     "strict": true,
     "rootDir": "src/",
-    "outDir": "game/"
+    "outDir": "game/",
+    "plugins": [{ "name": "typescript-tstl-plugin" }]
   },
   "tstl": {
     "luaTarget": "JIT"

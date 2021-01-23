@@ -14,7 +14,8 @@
     "love-typescript-definitions": "^0.22.1",
     "lua-types": "^2.8.0",
     "nodemon": "^2.0.7",
-    "typescript-to-lua": "^0.37.1"
+    "typescript-to-lua": "^0.37.1",
+    "typescript-tstl-plugin": "^0.2.0"
   },
   "dependencies": {}
 }
