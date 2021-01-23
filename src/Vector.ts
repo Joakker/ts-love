@@ -19,7 +19,6 @@ export class Vector {
     n = math.abs(n);
     this.x /= n;
     this.y /= n;
-    print(this.x == this.y);
   }
 
   readonly magnitude = () => math.sqrt(this.x ** 2 + this.y ** 2);

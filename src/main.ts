@@ -1,10 +1,13 @@
-import { Ball, Paddle, PaddleSide } from "./gameobj";
+import { ball } from "./Ball";
+import { Paddle, PaddleSide } from "./Paddle";
 
-const ball = new Ball();
-const l = new Paddle(PaddleSide.LF);
-const r = new Paddle(PaddleSide.RT);
+let l: Paddle;
+let r: Paddle;
 
 love.load = () => {
+  ball.reset();
+  l = new Paddle(PaddleSide.LF);
+  r = new Paddle(PaddleSide.RT);
   l.color = [0, 1, 0];
   r.color = [0, 0, 1];
 };
