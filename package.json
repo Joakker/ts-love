@@ -1,0 +1,20 @@
+{
+  "name": "ts-love",
+  "version": "0.1.0",
+  "description": "A love game created using the typescript-to-lua compiler",
+  "scripts": {
+    "build": "tstl",
+    "dev": "tstl --watch",
+    "start": "npx nodemon"
+  },
+  "keywords": [],
+  "author": "Joakker",
+  "license": "MIT",
+  "devDependencies": {
+    "love-typescript-definitions": "^0.22.1",
+    "lua-types": "^2.8.0",
+    "nodemon": "^2.0.7",
+    "typescript-to-lua": "^0.37.1"
+  },
+  "dependencies": {}
+}
